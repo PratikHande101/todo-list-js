@@ -24,6 +24,7 @@ body {
     background-color: #fff;
     padding: 40px 20px;
     border-radius: 15px;
+    box-shadow: 5px 5px 8px #000;
 }
 
 /*Styling for title*/
@@ -96,7 +97,14 @@ form {
     width: 100%;
 }
 
-.task {
-    position: relative;
-    bottom: 2px;
+.main-part {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+/* Styling completed task */
+
+.done {
+    text-decoration: line-through;
 }
