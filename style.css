@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #212121;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/*Styling for container*/
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    height: auto;
+    width: 400px;
+    background-color: #fff;
+    padding: 40px 20px;
+    border-radius: 15px;
+}
+
+/*Styling for title*/
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9px;
+    font-size: 0.7rem;
+}
+
+.icon {
+    height: 30px;
+    width: 30px;
+}
+
+.task-icon {
+    height: 25px;
+    width: 25px;
+}
+
+/* Styling for task input form */
+
+form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    background-color: #e0e0e0;
+    width: 90%;
+    border-radius: 17px;
+}
+
+#input-box {
+    background-color: transparent;
+    height: 100%;
+    padding-left: 20px;
+    border: none;
+    color: #212121;
+}
+
+#input-box:focus {
+    outline: none;
+}
+
+#add-task {
+    height: 100%;
+    width: 110px;
+    border-radius: 17px;
+    border: none;
+    background-color: #FF5945;
+    color: #fff;
+}
+
+/* Styling for tasks */
+
+.tasks {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 90%;
+}
+
+.task-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.task {
+    position: relative;
+    bottom: 2px;
+}
